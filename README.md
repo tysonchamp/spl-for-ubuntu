@@ -4,20 +4,14 @@ This is CS50's fork of Eric Roberts' Stanford Portable Library.
 
 ## Building
 
-### Fedora
+### Ubuntu
 
-    sudo yum install -y bash binutils coreutils findutils gcc java-1.?.0-openjdk-devel
-    git clone git@github.com:cs50/spl.git
+    sudo apt-get install -y build-essential git openjdk-7-jdk
+    git clone git@github.com:tysonchamp/spl-for-ubuntu.git
     cd spl
     make
     sudo make install
 
-### Ubuntu
+## Note
 
-_coming soon_
-
-## TODO
-
-* Bug fixes.
-* Re-generate `docs`.
-* Tidy `Makefile`.
+Little bit of changed has been made to this repository by @pierrebeaucamp for ubuntu
